@@ -1,0 +1,29 @@
+.matrixBox{
+    width: 10%;
+    margin: 1em;
+}
+.form-select{
+    width: 30%;
+    text-align: center;
+    margin: 30px auto;
+}
+.Matrix{
+    text-align: center;
+}
+.header{
+    text-align : center;
+    margin-top: 20px;
+}
+.Button{
+    padding:30px 0 30px;
+    text-align : center;
+    width:100%;
+}
+.tableClass{
+    width:50%;
+    text-align : center;
+    margin: 0 auto;
+}
+.alert{
+    text-align : center;
+}

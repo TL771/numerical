@@ -1,0 +1,35 @@
+.from{
+    width: 80%;
+    margin:50px auto;
+    font-size: 20px;
+}
+h2{
+    margin-top:50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.answer{
+    margin-top: 20px;
+}
+input[type="number"]{
+    text-align: center;
+}
+.b {
+    width: 100%;
+    text-align: center;
+}
+button{
+    width: 40%;
+}
+.answer{
+    font-size:1.1em;
+}
+#graph{
+    text-align: center;
+}
+.chart{
+    text-align: center;
+}
+.rv-xy-plot{
+    margin: 0 auto;
+}

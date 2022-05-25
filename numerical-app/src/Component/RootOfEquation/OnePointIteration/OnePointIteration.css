@@ -1,0 +1,21 @@
+.equation-select{
+    width:50%;
+    margin: 0 auto;
+    text-align:center;
+}
+.form-select{
+    width:70%;
+    /* margin-left:auto; */
+    margin-right:auto;
+}
+.btn{
+    width: 30%;
+}
+#chart{
+    margin-top: 30px;
+    text-align:center;
+}
+.Answer{
+    margin: 30px;
+    text-align:center;
+}

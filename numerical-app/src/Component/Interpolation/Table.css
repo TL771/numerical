@@ -1,0 +1,34 @@
+.tablenow{
+    width : 50%;
+    margin-top: 30px;
+}
+table{
+    margin : 0 auto;
+}
+table, th, td {
+    border: 1px solid;
+}
+th,td{
+    text-align:center;
+}
+
+td{
+    padding : 20px 3rem;
+}
+
+.buttonL{
+    width : 100%;
+    margin-top : 30px;
+    text-align : center;
+}
+.btn{
+    width : 30%;
+
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.x{
+    margin:0 auto;
+}
