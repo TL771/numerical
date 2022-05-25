@@ -22,7 +22,6 @@ export function GuessEliminateMethod(A,B){
 
 export function GaussJordanMethod(A,B){
     const n = B.length;
-    let X = [];
     const answer = GuessEliminateMethod(A,B);
     let At = answer.A,Bt = answer.B;
     for(let i = n-1;i >= 0;i--){

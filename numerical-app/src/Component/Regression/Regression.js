@@ -181,7 +181,7 @@ export default class Regression extends Component {
                     <option key={3} value={3}>Multiple Liner Regression</option>
                 </select>
             </div>
-            {(this.state.type == 3)?
+            {(this.state.type === 3)?
             <div className='nData'>
                 <Form.Label htmlFor="inputNumber">Number of Xi</Form.Label>
                 <Form.Control
@@ -192,7 +192,7 @@ export default class Regression extends Component {
                 />
             </div>:""
             }
-            {(this.state.type == 2)?
+            {(this.state.type === 2)?
             <div className='nData'>
                 <Form.Label htmlFor="inputNumber">Order</Form.Label>
                 <Form.Control

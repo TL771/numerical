@@ -43,7 +43,6 @@ const makeFunction=(a,usefor)=>{
 }
 export const regression=(data,order)=>{
     let A = [],B = [];
-    const n = data.length;
     for(let i = 0;i <= order;i++){
         let arr = []
         for(let j = 0;j <= order;j++){

@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { largrange } from "../Module/Largrange";
 // import functionPlot from "function-plot";
-import { simplify,round } from "mathjs";
+import { round } from "mathjs";
 import '../Table.css';
 export default class Largrange extends Component {
     constructor(props){

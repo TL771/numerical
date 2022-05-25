@@ -1,5 +1,5 @@
 let Ls = []
-const f = ''
+
 const largrangeInterpolation=(test,x,n,level)=>{
     if(n < 0)return 0;
     let up = 1,down = 1;
