@@ -23,20 +23,20 @@ function App() {
       <div className="container">
       <BrowserRouter>
           <Routes>
-            <Route path="/bisection" element={<Binarystyle methodName="bisection"/>} />
-            <Route path="/false-position" element={<Binarystyle methodName="false-position"/>} />
-            <Route path="/one-point-iteration" element={<OnePointIteration/>} />
-            <Route path="/newton-rapson" element={<Newtonrapson/>}/>
-            <Route path="/secant" element={<Secant/>}/>
-            <Route path="/cramerule" element={<Cramer/>}/>
-            <Route path="/GuessEliminateMethod" element={<GEM/>}/>
-            <Route path="/GaussJordanMethod" element={<GJM/>}/>
-            <Route path="/JocobiIterationMethod" element={<Jacobi/>}/>
-            <Route path="/GaussSeidelIterationMethod" element={<Seidel/>}/>
-            <Route path="/ConjugateGradientMethod" element={<Conjugate/>}/>
-            <Route path="/Newtondivideddifferences" element={<Newtondiff/>}/>
-            <Route path="/Largrange" element={<Largrange/>}/>
-            <Route path="/Regression" element={<Regression/>}/>
+            <Route path="/bisection" exact component={Binarystyle(methodName="bisection")} />
+            <Route path="/false-position" exact component={Binarystyle(methodName="false-position")} />
+            <Route path="/one-point-iteration" exact component={OnePointIteration} />
+            <Route path="/newton-rapson" exact component={Newtonrapson}/>
+            <Route path="/secant" exact component={Secant}/>
+            <Route path="/cramerule" exact component={Cramer}/>
+            <Route path="/GuessEliminateMethod" exact component={GEM}/>
+            <Route path="/GaussJordanMethod" exact component={GJM}/>
+            <Route path="/JocobiIterationMethod" exact component={Jacobi}/>
+            <Route path="/GaussSeidelIterationMethod" exact component={Seidel}/>
+            <Route path="/ConjugateGradientMethod" exact component={Conjugate}/>
+            <Route path="/Newtondivideddifferences" exact component={Newtondiff}/>
+            <Route path="/Largrange" exact component={Largrange}/>
+            <Route path="/Regression" exact component={Regression}/>
           </Routes>
       </BrowserRouter>
       </div>
