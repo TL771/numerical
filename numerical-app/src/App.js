@@ -23,8 +23,8 @@ function App() {
       <div className="container">
       <BrowserRouter>
           <Routes>
-            <Route path="/bisection" exact component={Binarystyle(methodName="bisection")} />
-            <Route path="/false-position" exact component={Binarystyle(methodName="false-position")} />
+            {/* <Route path="/bisection" exact component={Binarystyle(methodName="bisection")} />
+            <Route path="/false-position" exact component={Binarystyle(methodName="false-position")} /> */}
             <Route path="/one-point-iteration" exact component={OnePointIteration} />
             <Route path="/newton-rapson" exact component={Newtonrapson}/>
             <Route path="/secant" exact component={Secant}/>
